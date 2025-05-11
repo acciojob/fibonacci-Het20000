@@ -1,16 +1,19 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <title>Fibonacci Finder</title>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+  <h2>Find the Nth Fibonacci Number</h2>
 
+  <label for="fibInput">Enter a number (1–50):</label><br>
+  <input type="number" id="fibInput" min="1" max="50" value="5">
+  <br><br>
+
+  <button onclick="runFibonacci()">Get Fibonacci Number</button>
+  <p id="fibResult"></p>
+
+  <script src="script.js"></script>
 </body>
-
 </html>
